@@ -1,0 +1,181 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.logo{
+    display: flex;
+    color: #385F96;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+nav ul li a{
+    color: #385F96;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.hero,.main,.last,.footer,.container{
+    width: 1260px;
+    margin: 0px auto;
+    padding: 30px 30px;
+}
+
+
+
+nav ul li{
+    display: inline-block;
+    padding: 20px;
+}
+.container{
+    display: flex;
+    flex-direction:row;
+    gap: 100px;
+    justify-content:space-between;
+}
+.logo h2{
+    margin: 0%;
+    padding: 0%;
+}
+.continer1,.container2{
+    display: flex;
+    gap: 50px;
+    justify-content:space-between;
+}
+
+
+.part1,.part3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-basis: 550px;
+}
+.half-width img{
+    display: flex;
+    align-items: end;
+}
+
+
+
+
+.part2{
+    flex-basis: 550px;
+    justify-content: end;
+}
+
+.footer{
+    background-color: #385F96;
+    text-align: center;
+}
+
+.part1 h2{
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.part2 h2{
+    font-size: 35px;
+    font-weight: 700;
+}
+.part3 h2{
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.last{
+    background-color: #ADF1F7;
+}
+
+p{
+    font-size: 16px;
+    font-weight: 400px;
+}
+h2{
+    color: #385F96;
+}
+.footer p{
+ color: white;
+}
+
+.footer a{
+    color: red;
+}
+
+.button{
+    color: white;
+    background-color: #385F96;
+    padding: 10px 20px;
+    border-radius: 30px;
+    width: 100px;
+}
+
+.title{
+    font-size: 48px;
+    font-weight: 700;
+    color: #385F96;
+    position: relative;
+    
+}
+.title::before{
+    content: "";
+    width: 180px;
+    height: 188px;
+    position: absolute;
+    background-image: url("image/image\ 4.png");
+    background-size: cover;
+    top: -60%;
+    left: -15%;
+    z-index: -1;
+}
+
+.title2{
+    font-size: 35px;
+    font-weight: 700;
+    color: #385F96;
+    position: relative;
+    
+}
+
+.title2::before{
+    content: "";
+    width: 80px;
+    height: 5px;
+    position: absolute;
+    background-color: #44D1D9;
+    top: -15px;
+}
+
+.title3{
+    font-size: 35px;
+    font-weight: 700;
+    color: #385F96;
+    position: relative;
+    z-index: 10;
+    
+    
+}
+
+.title3::before{
+    content: "";
+    width: 180px;
+    height: 188px;
+    position: absolute;
+    background-image: url("image/image\ 5.png");
+    background-size: cover;
+    top: -100px;
+    left: -82px;
+   
+    z-index: -2;
+}
+/* @media (max-width: 400px) {
+    .container2{
+      flex-direction: column;
+      background-color: #44D1D9;
+    }
+  } */
